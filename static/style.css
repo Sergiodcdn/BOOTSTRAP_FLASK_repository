@@ -112,6 +112,10 @@ section#inicio span#subtitle {
     font-size: 1.5rem;
 }
 
+.imgSobre {
+    border-radius: 5px;
+}
+
 .text-shadow {
     text-shadow: 4px 4px 10px black;
 }
@@ -186,4 +190,8 @@ i.menu-mobile {
 
 *::-webkit-scrollbar-thumb {
     background-color: #c0532b;
+}
+
+.section-bg {
+    background-color: #eff5ff;
 }
