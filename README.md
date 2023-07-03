@@ -1,5 +1,10 @@
 # BOOTSTRAP_FLASK_repository
  
+estrutura MVC - model view control
+
+
 python
     flask
-estrutura MVC - model view control
+
+
+bootstrap
