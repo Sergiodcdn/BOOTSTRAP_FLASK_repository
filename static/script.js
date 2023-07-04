@@ -1,4 +1,4 @@
-/* abre e fecha menu lateral para mobile */
+// abre e fecha menu lateral para mobile
 
 const menuMobile = document.querySelector('.menu-mobile')
 const body = document.querySelector('body')
@@ -13,7 +13,7 @@ menuMobile.addEventListener('click', () => {
 })
 
 
-/* fecha o menu ao clicar em algum item e mostra hamburguinho */
+// fecha o menu ao clicar em algum item e mostra hamburguinho
 
 const navItem = document.querySelectorAll('.nav-item')
 
@@ -24,4 +24,27 @@ navItem.forEach(item => {
             menuMobile.classList.replace("bi-x", "bi-list")
         }
     })
+})
+
+
+// Animar os itens com atributo data-anime
+
+const item = document.querySelectorAll("[data-anime]")
+
+const animeScroll = () => {
+    const windowTop = window.pageYOffset + window.innerHeight * 0.85
+
+    item.forEach(element => {
+        if (windowTop > element.offsetTop) {
+            element.classList.add("animate")
+        } else {
+            element.classList.remove("animate")
+        }
+    })
+}
+
+animeScroll()
+
+window.addEventListener("scroll", () => {
+    animeScroll()
 })
