@@ -2,8 +2,7 @@
  
 ## Portfólio responsivo
 
-Estrutura MVC - model view control
-Tools - Bootstrap e Python
+Estrutura MVC - model view control. Tools - Bootstrap e Python
 
 ## Python 
     Uso do Flask, para ter ambiente de desenvolvimento, e se preciso posterior facilidade ao subir projeto para o Heroku.
